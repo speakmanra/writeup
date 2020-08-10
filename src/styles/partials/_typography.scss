@@ -1,0 +1,141 @@
+@import "src/styles/config";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: $army-light;
+  font-size: rem-calc(48);
+  font-weight: 300;
+  letter-spacing: rem-calc(1.2);
+  line-height: rem-calc(48);
+  text-transform: uppercase;
+  color: $white;
+}
+
+h2 {
+  font-family: $army-bold;
+  letter-spacing: 0;
+  font-size: rem-calc(40);
+  line-height: rem-calc(40);
+  color: $white;
+}
+
+h3 {
+  font-family: $army-light;
+  font-size: rem-calc(32);
+  letter-spacing: rem-calc(0.8);
+  line-height: rem-calc(32);
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $white;
+}
+
+h4 {
+  font-family: $army-regular;
+  font-size: rem-calc(24);
+  letter-spacing: rem-calc(5);
+  line-height: rem-calc(32);
+  text-transform: uppercase;
+  color: $white;
+}
+
+h5 {
+  font-family: $army-light;
+  font-size: rem-calc(24);
+  letter-spacing: rem-calc(1.25);
+  line-height: rem-calc(32);
+  font-weight: 300;
+  color: $white;
+}
+
+h6 {
+  font-family: $army-light;
+  font-weight: 300;
+  font-size: rem-calc(22);
+  letter-spacing: rem-calc(1.25);
+  line-height: rem-calc(24);
+  color: $white;
+}
+
+.body {
+  font-family: $army-light;
+  font-weight: 300;
+  font-size: rem-calc(20);
+  letter-spacing: rem-calc(1);
+  line-height: rem-calc(30);
+  color: $concrete;
+}
+
+.caption {
+  font-family: $army-light;
+  font-weight: 300;
+  letter-spacing: rem-calc(0.5);
+  font-size: rem-calc(16);
+  line-height: rem-calc(24);
+  color: $concrete;
+}
+
+.body-tiny {
+  font-family: $army-light;
+  font-size: rem-calc(12);
+  font-weight: 300;
+  letter-spacing: rem-calc(0.38);
+  line-height: rem-calc(16);
+  color: $concrete;
+}
+
+.smart-banner-title {
+  font-family: $army-bold;
+  font-size: rem-calc(16);
+  letter-spacing: rem-calc(0.5);
+  line-height: rem-calc(20);
+  text-transform: uppercase;
+  color: $white;
+}
+
+.smart-banner-subtitle {
+  font-family: $army-light;
+  font-weight: 300;
+  letter-spacing: rem-calc(0.5);
+  line-height: rem-calc(16);
+  font-size: rem-calc(16);
+  color: $white;
+}
+
+.large-number {
+  font-family: $aspire;
+  font-size: rem-calc(96);
+  letter-spacing: rem-calc(1.5);
+  line-height: rem-calc(96);
+  color: $white;
+}
+
+.small-number {
+  font-family: $aspire;
+  font-size: rem-calc(28.98);
+  letter-spacing: rem-calc(0.45);
+  line-height: rem-calc(30);
+  color: $slate;
+}
+
+// Dashboard card individual pages
+.dashboard-card-subtitle {
+  font-family: $army-bold;
+  color: $slate;
+  font-size: rem-calc(16);
+  line-height: rem-calc(18);
+  letter-spacing: rem-calc(1.25);
+  text-transform: uppercase;
+  &.date {
+    font-family: $army-light;
+    color: $white;
+  }
+}

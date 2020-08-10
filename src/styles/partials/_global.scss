@@ -1,0 +1,50 @@
+@import "src/styles/config";
+
+html {
+  -ms-overflow-style: none;
+  overflow: auto;
+  height: 100%;
+}
+
+body {
+  background-color: $dark-charcoal;
+  color: $white;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+}
+
+button:focus,
+mat-icon:focus,
+app-leaderboard-card:focus,
+app-achievement-card:focus,
+app-activity-card:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: rem-calc(1) solid $charcoal;
+  width: 100%;
+}
+
+// TODO AEN 31JUL2020 - remove after desktop size is good
+.max-width {
+  @media #{$medium-up} {
+    max-width: rem-calc(414);
+  }
+}
+
+::-webkit-scrollbar {
+  @media #{$small-only} {
+    display: none;
+  }
+}
+
+router-outlet ~ * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

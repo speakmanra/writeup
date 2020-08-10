@@ -1,0 +1,32 @@
+@import "src/styles/config";
+
+.mat-dialog-container {
+  background-color: $white;
+  padding: rem-calc(24 16 16) !important;
+  border-radius: rem-calc(16) !important;
+  max-width: rem-calc(414);
+  margin: auto;
+}
+
+.mat-dialog-title {
+  color: $charcoal;
+  margin: rem-calc(0 0 24) !important;
+}
+
+.mat-dialog-content {
+  color: $slate;
+}
+
+.mat-dialog-actions {
+  padding: rem-calc(0) !important;
+  margin: rem-calc(64 0 0) !important;
+  justify-content: space-between;
+  .medium {
+    color: $candy;
+    border-color: $candy;
+  }
+}
+
+.mat-form-field {
+  width: 100%;
+}

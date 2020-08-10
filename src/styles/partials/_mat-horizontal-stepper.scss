@@ -1,0 +1,12 @@
+@import "src/styles/config";
+
+app-sign-up-container {
+  .mat-horizontal-stepper-header-container {
+    display: none !important;
+  }
+}
+
+.mat-stepper-horizontal,
+.mat-stepper-vertical {
+  background-color: $dark-charcoal;
+}

@@ -1,0 +1,494 @@
+@import "src/styles/config";
+
+//Text Buttons
+.text-button {
+  font-family: $army-light;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: rem-calc(16 0);
+  &.lg-primary {
+    color: $sunshine;
+    font-size: rem-calc(24);
+    line-height: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+  }
+  &.lg-secondary {
+    color: $slate;
+    font-size: rem-calc(24);
+    line-height: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+  }
+  &.md-primary {
+    color: $sunshine;
+    font-size: rem-calc(18);
+    line-height: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+  }
+  &.md-secondary {
+    color: $slate;
+    font-size: rem-calc(18);
+    line-height: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+  }
+  &.sm-primary {
+    color: $sunshine;
+    font-size: rem-calc(16);
+    line-height: rem-calc(16);
+    letter-spacing: rem-calc(1);
+  }
+  &.sm-secondary {
+    color: $slate;
+    font-size: rem-calc(16);
+    line-height: rem-calc(16);
+    letter-spacing: rem-calc(1);
+  }
+}
+// Mobile Primary Buttons
+
+// Mobile Fluid Buttons
+.mobile-fluid {
+  width: 100%;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  &.large {
+    min-height: rem-calc(64);
+    border-radius: rem-calc(32);
+    font-size: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+    line-height: rem-calc(27);
+    background-color: $charcoal;
+    box-shadow: rem-calc(0 2 4 0) $blk-25;
+    font-family: $army-light;
+    color: $sunshine;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $elephant;
+      box-shadow: rem-calc(0 2 3 0) $blk-50;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $pewter;
+    }
+  }
+
+  &.large-emphasis {
+    min-height: rem-calc(64);
+    border-radius: rem-calc(32);
+    font-size: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+    line-height: rem-calc(27);
+    background: $sunshine-gradient;
+    box-shadow: rem-calc(0 2 3 0) $blk-50;
+    font-family: $army-regular;
+    color: $dark-charcoal;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background: $banana-gradient;
+      box-shadow: rem-calc(0 2 8 0) $sunshine-25;
+    }
+    &:focus {
+      background: $sunshine-gradient;
+    }
+  }
+
+  &.large-inactive {
+    min-height: rem-calc(64);
+    border-radius: rem-calc(32);
+    font-size: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+    line-height: rem-calc(27);
+    background-color: $charcoal;
+    font-family: $army-light;
+    color: $slate;
+    opacity: 0.25;
+  }
+
+  &.medium {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $charcoal;
+    box-shadow: rem-calc(0 2 4 0) $blk-25;
+    font-family: $army-light;
+    color: $sunshine;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $elephant;
+      box-shadow: rem-calc(0 2 3 0) $blk-50;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $pewter;
+    }
+  }
+
+  &.medium-emphasis {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background: $sunshine-gradient;
+    box-shadow: rem-calc(0 2 4 0) $blk-25;
+    font-family: $army-regular;
+    color: $dark-charcoal;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background: $banana-gradient;
+      box-shadow: rem-calc(0 2 8 0) $sunshine-25;
+    }
+    &:focus {
+      background: $sunshine-gradient;
+    }
+  }
+
+  &.medium-inactive {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $charcoal;
+    font-family: $army-light;
+    color: $slate;
+    opacity: 0.25;
+  }
+}
+
+// Mobile Primary Buttons
+.mobile-primary {
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  &.large {
+    min-height: rem-calc(64);
+    min-width: rem-calc(122);
+    border-radius: rem-calc(32);
+    padding: rem-calc(0 24);
+    font-size: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+    line-height: rem-calc(27);
+    background-color: $charcoal;
+    box-shadow: rem-calc(0 2 4 0) $blk-25;
+    font-family: $army-light;
+    color: $sunshine;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $elephant;
+      box-shadow: rem-calc(0 2 3 0) $blk-50;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $pewter;
+    }
+  }
+
+  &.medium {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    padding: rem-calc(0 18);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $charcoal;
+    box-shadow: rem-calc(0 2 4 0) $blk-25;
+    font-family: $army-light;
+    color: $sunshine;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $elephant;
+      box-shadow: rem-calc(0 2 3 0) $blk-50;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $pewter;
+    }
+  }
+
+  &.small {
+    min-height: rem-calc(32);
+    border-radius: rem-calc(16);
+    padding: rem-calc(0 12);
+    font-size: rem-calc(16);
+    letter-spacing: rem-calc(1);
+    line-height: rem-calc(18);
+    background-color: $charcoal;
+    box-shadow: rem-calc(0 2 4 0) $blk-25;
+    font-family: $army-light;
+    color: $sunshine;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $elephant;
+      box-shadow: rem-calc(0 2 3 0) $blk-50;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $pewter;
+    }
+  }
+
+  &.small-inactive {
+    min-height: rem-calc(32);
+    border-radius: rem-calc(16);
+    padding: rem-calc(0 12);
+    font-size: rem-calc(16);
+    letter-spacing: rem-calc(1);
+    line-height: rem-calc(18);
+    background-color: $charcoal;
+    font-family: $army-light;
+    color: $slate;
+    opacity: 0.25;
+  }
+
+  &.small-flat {
+    min-height: rem-calc(32);
+    border-radius: rem-calc(16);
+    padding: rem-calc(0 12);
+    font-size: rem-calc(16);
+    letter-spacing: rem-calc(1);
+    line-height: rem-calc(18);
+    background-color: $dark-charcoal;
+    font-family: $army-light;
+    color: $sunshine;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $white-03;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $white-05;
+    }
+  }
+
+  &.small-flat-inactive {
+    min-height: rem-calc(32);
+    border-radius: rem-calc(16);
+    padding: rem-calc(0 12);
+    font-size: rem-calc(16);
+    letter-spacing: rem-calc(1);
+    line-height: rem-calc(18);
+    background-color: $dark-charcoal;
+    font-family: $army-light;
+    color: $slate;
+  }
+}
+
+// Mobile Secondary Buttons
+.mobile-secondary {
+  text-align: center;
+  text-transform: uppercase;
+
+  &.large {
+    min-height: rem-calc(64);
+    border-radius: rem-calc(32);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 24);
+    font-size: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+    line-height: rem-calc(27);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $white-03;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $transparent;
+    }
+  }
+
+  &.large-inactive {
+    min-height: rem-calc(64);
+    border-radius: rem-calc(32);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 24);
+    font-size: rem-calc(24);
+    letter-spacing: rem-calc(1.5);
+    line-height: rem-calc(27);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    opacity: 0.25;
+  }
+
+  &.medium-fluid {
+    min-height: rem-calc(48);
+    width: 100%;
+    border-radius: rem-calc(24);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 18);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $white-03;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $transparent;
+    }
+  }
+
+  &.medium {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 18);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $white-03;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $transparent;
+    }
+  }
+
+  &.medium-flat {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    border: none;
+    padding: rem-calc(0 18);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      color: $slate;
+      background-color: $white-03;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $white-05;
+    }
+  }
+
+  &.medium-flat-inactive {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    border: none;
+    padding: rem-calc(0 18);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    opacity: 0.25;
+  }
+
+  &.medium-inactive {
+    min-height: rem-calc(48);
+    border-radius: rem-calc(24);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 18);
+    font-size: rem-calc(18);
+    letter-spacing: rem-calc(1.13);
+    line-height: rem-calc(20);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    opacity: 0.25;
+  }
+
+  &.small {
+    min-height: rem-calc(32);
+    min-width: rem-calc(45);
+    border-radius: rem-calc(16);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 12);
+    font-size: rem-calc(16);
+    letter-spacing: rem-calc(1);
+    line-height: rem-calc(18);
+    background-color: $transparent;
+    font-family: $army-light;
+    color: $slate;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: $white-03;
+      cursor: pointer;
+    }
+    &:focus {
+      background-color: $transparent;
+    }
+  }
+
+  &.small-inactive {
+    min-height: rem-calc(32);
+    border-radius: rem-calc(16);
+    border: rem-calc(2) solid $charcoal;
+    padding: rem-calc(0 12);
+    font-size: rem-calc(16);
+    letter-spacing: rem-calc(1);
+    line-height: rem-calc(18);
+    background-color: $transparent;
+    font-weight: 300;
+    font-family: $army-light;
+    color: $slate;
+    opacity: 0.25;
+  }
+}
+
+// Icons {
+.mat-icon.big-icon {
+  font-size: rem-calc(40);
+  width: rem-calc(40);
+  min-height: rem-calc(40);
+  vertical-align: middle;
+}
+
+.mat-icon.small-icon {
+  font-size: rem-calc(20);
+  width: rem-calc(20);
+  height: rem-calc(20);
+  vertical-align: middle;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  .left {
+    padding-left: rem-calc(8);
+    width: rem-calc(26);
+  }
+  .right {
+    padding-right: rem-calc(8);
+    width: rem-calc(26);
+  }
+}

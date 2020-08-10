@@ -1,0 +1,23 @@
+app-sign-up-container {
+  .mat-checkbox-layout {
+    white-space: normal;
+  }
+
+  .mat-checkbox-inner-container {
+    margin-top: rem-calc(11) !important;
+    margin-left: rem-calc(10) !important;
+    margin-right: rem-calc(8) !important;
+    height: rem-calc(20);
+    width: rem-calc(20);
+    color: $grey;
+  }
+
+  .mat-ripple {
+    border: rem-calc(0.6) solid $charcoal;
+    border-radius: rem-calc(8);
+  }
+
+  .mat-checkbox-label {
+    margin-left: rem-calc(18);
+  }
+}

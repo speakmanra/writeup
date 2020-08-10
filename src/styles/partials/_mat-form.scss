@@ -1,0 +1,69 @@
+@import "src/styles/config";
+
+// Global Form Field Styles
+mat-label {
+  font-family: $army-light;
+  letter-spacing: rem-calc(1);
+  font-size: rem-calc(18);
+}
+
+// Default input width
+mat-form-field {
+  min-width: rem-calc(328);
+  height: rem-calc(56);
+}
+
+// Text styles within input
+.mat-form-field {
+  font-family: $army-light;
+  font-size: rem-calc(18);
+  input {
+    color: $white-87;
+    letter-spacing: rem-calc(1);
+  }
+}
+
+app-sign-up-form {
+  .mat-form-field-wrapper {
+    padding-bottom: rem-calc(29) !important;
+  }
+}
+
+// Default label color
+.mat-form-field-label {
+  color: $white-60;
+}
+
+app-settings-container {
+  .mat-form-field-wrapper {
+    margin: rem-calc(0 0 29) !important;
+    padding-bottom: rem-calc(16);
+  }
+}
+
+// Input outline default
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: $white-38;
+}
+
+// Input outline hover
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: $white-60;
+}
+
+// Form field padding
+.mat-form-field-flex {
+  padding: rem-calc(0 16) !important;
+}
+
+.mat-form-field-invalid {
+  color: $white-38 !important;
+}
+
+// Form input subscript
+.mat-form-field-subscript-wrapper {
+  margin-top: 0;
+}
+.mat-form-field-appearance-outline .mat-form-field-subscript-wrapper {
+  padding: rem-calc(0 0 0 13.5) !important;
+}
